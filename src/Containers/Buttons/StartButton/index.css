@@ -1,0 +1,27 @@
+.start-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 28px;
+    gap: 12px;
+
+    position: relative;
+    width: 21.25rem;
+    height: 3.688rem;
+    left: 139px;
+    top: 578px;
+    color: #FFFFFF;
+    /* Grey/900 */
+
+    background: #19191A;
+    /* Grey/900 */
+
+    border: 1px solid #19191A;
+    border-radius: 8px; 
+    cursor: pointer;
+}

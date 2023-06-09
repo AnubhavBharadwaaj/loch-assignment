@@ -1,0 +1,324 @@
+.main-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    height: 64rem;
+    left: -384px;
+    top: -114px;
+    overflow: hidden;
+    background: #000000;
+}
+
+.radiant-left {
+    width: 83.375rem;
+    height: 64rem;
+    display: flex;
+    flex-direction: column;
+    background: url('../../Assets/images/bluela2.png');
+} 
+
+.getnotify-text {
+    position: absolute;
+    width: 19.563rem;
+    height: 6.938rem;
+    max-width: 18ch;
+    left: 60px;
+    top: 134px;
+
+    /* Heading 4 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 120%;
+    /* or 37px */
+
+    display: flex;
+    align-items: center;
+
+    /* Background - F2F2F2 */
+
+    color: #F2F2F2;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.desc-1 {
+    position: absolute;
+    width: 20.125rem;
+    height: 4.75rem;
+    left: 60px;
+    top: 261px;
+    max-width: 33ch;
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+
+    /* Background - F2F2F2 */
+
+    color: #F2F2F2;
+
+    opacity: 0.7;
+}
+
+.bell-left {
+    position: absolute;
+    left: 60px;
+    right: 12.51%;
+    top: 9.38%;
+    bottom: 9.38%;
+    width: 1.5rem;
+    height: 1.625rem;
+    background: url('../../Assets/images/Logo_3.png');
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+    width: 100%;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+    width: 100%;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+    width: 100%;
+}
+
+.whale-left {
+    background: url("../../Assets/images/whale_1.svg");
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20.938rem;
+    height: 19.125rem;
+    left: 60px;
+    top: 409px;
+    border: 1.5px solid rgba(255, 255, 255, 0.68);
+    /* Active Shadow */
+    background-size: 100%;
+    box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+    border-radius: 12px;
+}
+
+.eye-right {
+    background: url("../../Assets/images/Logo_2.png");
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: 18.75%;
+}
+
+.eye-text1 {
+    position: absolute;
+    width: 305px;
+    height: 74px;
+    left: 433px;
+    top: 474px;
+
+    /* Heading 4 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 120%;
+    /* or 37px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Background - F2F2F2 */
+
+    color: #F2F2F2;
+}
+
+.eye-text2 {
+    position: absolute;
+    width: 305px;
+    height: 57px;
+    left: 433px;
+    top: 564px;
+
+    /* Body */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Background - F2F2F2 */
+
+    color: #F2F2F2;
+
+    opacity: 0.7;
+}
+
+.testimonial-text {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 587.875px;
+    top: 737px;
+
+    /* Heading 5 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 30px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Background - F2F2F2 */
+
+    color: #F2F2F2;
+}
+
+.testimonial-divider {
+    position: absolute;
+    width: 678px;
+    height: 0px;
+    left: 60px;
+    top: 787px;
+
+    /* Grey/50 */
+
+    border: 1px solid rgba(229, 229, 230, 0.5);
+}
+
+.loch-logo {
+    position: absolute;
+    left: 4.17%;
+    right: 91.67%;
+    top: 56.5rem;
+    bottom: 5.86%;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    flex-direction: row;
+    background: url("../../Assets/images/Logo_1.png");
+}
+
+.sub-2-section-2 {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.sub-1-section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-2-section-1 {
+    left: 439px;
+    top: 92px;
+    position: relative;
+    width: 407px;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    /* Active Shadow */
+    width: 44%;
+    height: 64rem;
+    box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+}
+
+.sign-text {
+    width: 20.375rem;
+    height: 5.875rem;
+    left: 139px;
+    top: 369px;
+    position: relative;
+    z-index: 3001;
+    /* Heading 3 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 120%;
+    /* or 47px */
+
+    display: flex;
+    align-items: center;
+
+    /* Grey/300 */
+
+    color: #B0B1B3;
+}
+
+.invite-text {
+    width: 22.813rem;
+    height: 1.188rem;
+    position: relative;
+    top: 679px;
+    left: 139px;
+    /* Button Label */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey/900 */
+
+    color: #19191A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

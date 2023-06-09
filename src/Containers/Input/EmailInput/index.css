@@ -1,0 +1,29 @@
+.email-input {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 24px;
+
+    position: relative;
+    width: 21.25rem;
+    height: 3.688rem;
+    left: 139px;
+    top: 495px;
+
+    background: #FFFFFF;
+    /* Grey/100 */
+
+    border: 1px solid #E5E5E6;
+    /* ShadowDropdown */
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04), 0px 1px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+
+.email-input:hover {
+    border: 1px solid #4b4be0
+}
